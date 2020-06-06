@@ -136,3 +136,8 @@ h1.title {
 .card.green {
     background-color: #3cbfa1;
 }
+
+.members {
+    display: flex;
+    justify-content: space-between;
+}
