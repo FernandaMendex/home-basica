@@ -14,3 +14,34 @@ header {
     justify-content: space-evenly;
     padding: 2rem;
 }
+
+.logo img {
+    width: 250px;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-in button {
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 180px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    margin-right: 5px;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.1);
+}
