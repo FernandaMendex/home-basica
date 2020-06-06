@@ -99,3 +99,8 @@ h1.title {
     background-color: white;
     color: #444;
 }
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
