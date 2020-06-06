@@ -147,3 +147,26 @@ h1.title {
     height: 120px;
     border-radius: 50%;
 }
+
+footer {
+    background-color: #3788bf;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    list-style-type: none;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p.copyright{
+    text-align: center;
+    padding: 3rem 0;
+    color: #ffffffdd;  
+}
